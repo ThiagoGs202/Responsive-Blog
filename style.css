@@ -229,3 +229,27 @@ nav button{
 .featured .post_thumbnail{
     height: fit-content;
 }
+
+/* POSTS */
+
+.posts_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5rem;
+    margin-bottom: 5rem;
+}
+
+/* CATEGORY BUTTONS */
+
+.category_buttons{
+    padding: 4rem 0;
+    border-top: 2px solid var(--color-gray-900);
+    border-bottom:2px solid var(--color-gray-900);
+}
+
+.category_buttons-container{
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
